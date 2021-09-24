@@ -1,0 +1,135 @@
+body {
+    font-family: "Open Sans", "Raleway", Arial, sans-serif;
+}
+  
+.container {
+  width: 94%;
+  margin: 0 auto;
+}
+
+/* CABECALHO */
+
+.cabecalhoPrincipal {
+  background-color: #369DD7;
+  height: 5.6em;
+  width: 100%;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(128, 128, 128, 0.21);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(128, 128, 128, 0.21);
+  box-shadow: 0px 2px 2px 0px rgba(128, 128, 128, 0.21);
+  display: flex;
+  justify-content: center;
+}
+  
+.cabecalhoPrincipal-titulo {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 7px;
+}
+
+.cabecalhoPrincipal img {
+    width: 60px;
+}
+
+.cabecalhoPrincipal-titulo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabecalhoPrincipal-nav-link {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #9799a6;
+  background-color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+  display: block;
+  border-bottom: 1px solid #9799a6;
+}
+  
+.fa-header {
+    margin-left: 10px;
+}
+
+/* NAVBAR */
+.cabecalhoPrincipal-nav a {
+    padding: 6px;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  nav .cabecalhoPrincipal-nav-login {
+    border-image-slice: 1;
+    margin: auto;
+    text-decoration: none;
+  }
+
+  /* RODAPÉ */
+
+.rodapePrincipal {
+  padding-top: 50.2px;
+  font-weight: lighter;
+}
+
+.rodapePrincipal-patrocinadores {
+  margin-top: 30px;
+  background: #369DD7;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fotter {
+  width: 60px;
+  margin-right: 100px;
+}
+
+.txt-rodape {
+  margin-top: 23px;
+  color: #fff
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 769px) {
+    .container {
+      width: 90%;
+    }
+  
+    .subtitulo {
+      text-align: center;
+    }
+  
+    .cabecalhoPrincipal-nav-link {
+      border-radius: 5px;
+      border: 1px solid #9799a6;
+    }
+  
+    .cabecalhoPrincipal-nav-link:hover {
+      color: #fff;
+      background-color: #9799a6;
+    }
+  
+    .cabecalhoPrincipal-titulo {
+      margin: 0;
+    }
+  
+    .cabecalhoPrincipal-nav {
+      width: auto;
+      display: flex;
+      align-items: center;
+    }
+  
+    .cabecalhoPrincipal-nav-link {
+      width: auto;
+      margin: 0 0 0 10px;
+    }
+  
+  }
+
+
+
